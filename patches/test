@@ -1,7 +1,7 @@
 Bottom: a0feda72431c93557a6276fca1c34e3507923cd6
 Top:    6d0586bb3b8a6078acd5e19d40eef73daf269dd2
 Author: sss <sss@karma>
-Date:   2026-03-07 14:27:52 -0500
+Date:   2026-03-07 14:27:54 -0500
 
 Fix tests.
 
@@ -13,3 +13,5 @@ hiding the errors.  However, a side effect of this change
 https://github.com/AIDASoft/DD4hep/pull/1578
 
 is that dd4hep is properly reporting the errors.
+
+Also, run the ubuntu build only with the nightly on ubuntu24.

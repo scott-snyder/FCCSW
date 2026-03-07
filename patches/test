@@ -1,0 +1,15 @@
+Bottom: a0feda72431c93557a6276fca1c34e3507923cd6
+Top:    a0feda72431c93557a6276fca1c34e3507923cd6
+Author: sss <sss@karma>
+Date:   2026-03-06 22:41:05 -0500
+
+Fix tests.
+
+Update tests to use geometry files from k4geo, rather than the obsolete
+ones in FCCDetectors.  The old ones fail due to errors in the type_flags
+elements.  These were previously not failing because dd4hep was
+hiding the errors.  However, a side effect of this change
+
+https://github.com/AIDASoft/DD4hep/pull/1578
+
+is that dd4hep is properly reporting the errors.

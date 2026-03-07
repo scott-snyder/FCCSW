@@ -157,7 +157,7 @@ createEcalBarrelCellsStep1.calibTool = calibEcalBarrel
 createEcalBarrelCellsStep1.addCellNoise = False
 createEcalBarrelCellsStep1.filterCellNoise = False
 # todo: add when update on cvmfs
-createEcalBarrelCellsStep1.addPosition = True
+createEcalBarrelCellsStep1.addPosition = False
 createEcalBarrelCellsStep1.hits = "ECalBarrelPositionedHits"
 createEcalBarrelCellsStep1.cells = "ECalBarrelCellsStep1"
 ApplicationMgr().TopAlg += [createEcalBarrelCellsStep1]
@@ -202,7 +202,7 @@ ApplicationMgr().TopAlg += [createEcalBarrelPositionedCells]
 createHcalBarrelCells = CreateCaloCells("CreateHCaloCells")
 createHcalBarrelCells.doCellCalibration = True
 createHcalBarrelCells.calibTool = calibHcells
-createHcalBarrelCells.addPosition = True
+createHcalBarrelCells.addPosition = False
 createHcalBarrelCells.addCellNoise = False
 createHcalBarrelCells.filterCellNoise = False
 createHcalBarrelCells.hits = "HCalBarrelPositionedHits"

@@ -1,0 +1,8 @@
+Bottom: 6d0586bb3b8a6078acd5e19d40eef73daf269dd2
+Top:    6d0586bb3b8a6078acd5e19d40eef73daf269dd2
+Author: sss <sss@karma>
+Date:   2026-04-05 23:48:01 -0400
+
+Need to declare MetadataSvc to ExtSvc.
+
+Get test working again.

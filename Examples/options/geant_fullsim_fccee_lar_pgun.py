@@ -10,6 +10,7 @@ ApplicationMgr().EvtMax = 2
 ApplicationMgr().OutputLevel = INFO
 ApplicationMgr().StopOnSignal = True
 ApplicationMgr().ExtSvc += ['RndmGenSvc']
+ApplicationMgr().ExtSvc += ['MetadataSvc']
 
 from Configurables import MetadataSvc
 ApplicationMgr().ExtSvc += [MetadataSvc()]

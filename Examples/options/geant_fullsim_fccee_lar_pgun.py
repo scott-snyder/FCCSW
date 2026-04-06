@@ -12,6 +12,7 @@ ApplicationMgr().EvtMax = 2
 ApplicationMgr().OutputLevel = INFO
 ApplicationMgr().StopOnSignal = True
 ApplicationMgr().ExtSvc += ['RndmGenSvc']
+ApplicationMgr().ExtSvc += ['MetadataSvc']
 
 ApplicationMgr().ExtSvc += [MetadataSvc()]
 

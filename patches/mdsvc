@@ -1,8 +1,0 @@
-Bottom: 84434e0735715aaaf9f9b06a7f60167afbcca552
-Top:    6d262832127c7f11ad5dbc6be733698306492db4
-Author: sss <sss@karma>
-Date:   2026-05-19 11:31:57 -0400
-
-Need to declare MetadataSvc to ExtSvc.
-
-Get test working again.

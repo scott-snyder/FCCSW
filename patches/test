@@ -1,0 +1,17 @@
+Bottom: 84434e0735715aaaf9f9b06a7f60167afbcca552
+Top:    c1202e30691defa2d8b638929d03b779a944a87e
+Author: sss <sss@karma>
+Date:   2026-03-06 22:41:05 -0500
+
+Fix tests.
+
+Update tests to use geometry files from k4geo, rather than the obsolete
+ones in FCCDetectors.  The old ones fail due to errors in the type_flags
+elements.  These were previously not failing because dd4hep was
+hiding the errors.  However, a side effect of this change
+
+https://github.com/AIDASoft/DD4hep/pull/1578
+
+is that dd4hep is properly reporting the errors.
+
+Also, run the ubuntu build only with the nightly on ubuntu24.

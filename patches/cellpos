@@ -1,0 +1,11 @@
+Bottom: c1202e30691defa2d8b638929d03b779a944a87e
+Top:    c1202e30691defa2d8b638929d03b779a944a87e
+Author: scott snyder <snyder@bnl.gov>
+Date:   2026-07-16 15:57:02 -0400
+
+Update use of CreateCellPosition.
+
+Update to be compatible with changes in CreateCellPosition:
+Setting addPosition requires either a positioning tool or geometry tool.
+Turn off addPosition in places where we don't have those (so addPosition
+can't do anything correctly in any case).
